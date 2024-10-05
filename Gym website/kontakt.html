@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Gym Extreme</title>
+    <link rel="icon" href="/gymlogo.png" />
+    <link rel="stylesheet" href="/indexcss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <img src="/gymlogo.png" />
+      <ul>
+        <li><a href="/index.html">početna</a></li>
+        <li><a href="/onama.html">o nama</a></li>
+        <li><a href="/cjenovnik.html">cjenovnik</a></li>
+        <li><a href="/usluge.html">usluge</a></li>
+        <li><a href="/treneri.html">treneri</a></li>
+        <li><a href="/galerija.html">galerija</a></li>
+        <li><a href="/kontakt.html">kontakt</a></li>
+        <li>
+          <a href="https://www.instagram.com/" target="”_blank”">instagram</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/?locale=hr_HR" target="”_blank”"
+            >facebook</a
+          >
+        </li>
+      </ul>
+      <div id="radnovrijeme">
+        Radno vrijeme:
+        <span>Pon-Sub: 07-22 </span>
+        <span>Ned:12-20</span>
+      </div>
+    </nav>
+    <div id="pocetna">
+      <div id="pocentacontainer">
+        <section class="description">
+          <h2>Kontaktirajte Nas</h2>
+          <p>
+            Imate pitanja ili želite dobiti dodatne informacije? Slobodno nas
+            kontaktirajte putem telefona, e-maila ili posjetite našu lokaciju.
+            Naš tim je ovdje kako bi vam pomogao.
+          </p>
+        </section>
+
+        <section class="contact-info">
+          <div class="info">
+            <h3>Telefon</h3>
+            <p>061 234 567</p>
+          </div>
+
+          <div class="info">
+            <h3>Email</h3>
+            <p>info@gymextreme.com</p>
+          </div>
+
+          <div class="info">
+            <h3>Lokacija</h3>
+            <p>Stupska petlja, Sarajevo</p>
+          </div>
+        </section>
+
+        <section class="contact-form">
+          <h3>Pošaljite nam poruku</h3>
+          <form action="/submit_form.php" method="post">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Pošalji</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <div id="bottomnav">
+      <img id="slikabottom" src="/gymlogo.png" />
+      <div id="bottomtext">
+        <p><b>Kontakt:</b> 061 234 567</p>
+        <p><b>Lokacija:</b> Stupska petlja, Sarajevo</p>
+      </div>
+    </div>
+  </body>
+</html>
